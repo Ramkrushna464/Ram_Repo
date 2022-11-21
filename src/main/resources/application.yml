@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@172.16.80.119:1521:APIDBUAT
+    username: DETUSR
+    password: DETUSR$
+
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql:true
+server:
+  port: 9898
